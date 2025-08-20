@@ -19,7 +19,6 @@ export default function Home() {
     }
   }, []);
 
-  // what the helly
   const handleAudioChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     const files = event.target.files;
     if (files && files.length > 0 && audioRef.current) {
